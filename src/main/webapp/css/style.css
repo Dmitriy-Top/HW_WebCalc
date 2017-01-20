@@ -1,0 +1,108 @@
+.form{
+           max-width:400px;
+           margin:50px auto;
+           background:#fff;
+           border-radius:2px;
+           padding:20px;
+           font-family: 'Roboto', sans-serif;
+       }
+       .form ul{
+           list-style:none;
+           padding:0;
+           margin:0;
+       }
+       .form li{
+           display: block;
+           padding: 9px;
+           border:1px solid #DDDDDD;
+           margin-bottom: 30px;
+           border-radius: 3px;
+       }
+       .form li:last-child{
+           border:none;
+           margin-bottom: 0px;
+           text-align: center;
+       }
+       .form li > label{
+           display: block;
+           float: left;
+           margin-top: -22px;
+           background: #FFFFFF;
+           height: 14px;
+           padding: 2px 5px 2px 5px;
+           color: #B9B9B9;
+           font-size: 14px;
+           overflow: hidden;
+           font-family: 'Roboto', sans-serif;
+       }
+       .form input[type="text"]
+       {
+           box-sizing: border-box;
+           -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+           width: 100%;
+           display: block;
+           outline: none;
+           border: none;
+           height: 25px;
+           line-height: 25px;
+           font-size: 16px;
+           padding: 0;
+           font-family: 'Roboto', sans-serif;
+       }
+       .form input[type="text"]:focus,
+       {
+       }
+       .form li > span{
+           background: #F3F3F3;
+           display: block;
+           padding: 3px;
+           margin: 0 -9px -9px -9px;
+           text-align: center;
+           color: #C0C0C0;
+           font-family: 'Roboto', sans-serif;
+           font-size: 11px;
+       }
+       .form input[type="submit"],
+       .form input[type="button"]{
+           background: #2471FF;
+           border: none;
+           padding: 10px 20px 10px 20px;
+           border-bottom: 3px solid #5994FF;
+           border-radius: 3px;
+           color: #D2E2FF;
+       }
+       .form input[type="submit"]:hover,
+       .form input[type="button"]:hover{
+           background: #6B9FFF;
+           color:#fff;
+       }
+	   #history {
+    display: block;
+    text-align: right;
+    color: #C0C0C0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+table {
+color: #333;
+width: 100%;
+border-collapse:
+collapse; border-spacing: 0;
+}
+
+td, th { border: 1px solid #CCC; height: 30px; padding-left: 8px;}
+
+th {
+background: #F3F3F3;
+text-align: left;
+}
+
+td {
+background: #FAFAFA;
+}
+#history_view{
+display:none;
+}
