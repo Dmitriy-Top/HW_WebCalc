@@ -59,7 +59,7 @@ public class Calculator {
     public String getResult() {
         if(this.result==null) this.result = "Неверные аргументы";
         try{
-            new ResultDAO("jdbc:postgresql://127.0.0.1:5432/webcalc", "root", "12345").putResult(result);
+            new ResultDAO("jdbc:postgresql://127.0.0.1:5432/webcalc", "postgres", "12345").putResult(result);
         } catch (Exception e){
             for(StackTraceElement ste :e.getStackTrace()){
                 result+=ste.toString();
